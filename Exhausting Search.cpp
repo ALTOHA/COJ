@@ -27,17 +27,13 @@ long long int proceso(long long int valor){
 }
 
 int main(){
-	long long int casos, valor, i, temp;
-	bool ac;
-	char res[10], comp[10];
+	long long int casos, valor;
 	scanf("%lld", &casos);
 	
 	while(casos--){
-		ac = false;
 		scanf("%lld", &valor);
-		temp = proceso(valor+1);
-		printf("%lld\n", temp);
-		
+		printf("%lld\n", proceso(valor+1));
+			
 	}
 	
 	return 0;
